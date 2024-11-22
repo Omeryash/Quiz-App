@@ -1,7 +1,7 @@
 const questionElement = document.getElementById("question");
 
-let num1 = Math.floor(Math.random() * 10);
-let num2 = Math.floor(Math.random() * 10);
+let num1 = Math.floor(Math.random() * 20);
+let num2 = Math.floor(Math.random() * 20);
 let correctAnswer = num1 * num2;
 
 questionElement.innerText = `What is ${num1} Multiply by ${num2}?`;
